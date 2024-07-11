@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ecomerce {
+  padding-left: 165px;
+  padding-right: 165px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.container-header {
+  padding-top: 24px;
+  background-color: rgba(255, 201, 186, 1);
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.navbar {
+  display: flex;
+  gap: 35px;
+}
+
+.content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.sarikoltuk {
+  padding-top: 144px;
+  margin-bottom: 136px;
+}
+.text h2 {
+  padding-top: 103px;
+  padding-right: 24px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+}
+.text p {
+  margin-bottom: 32px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.text a {
+  text-decoration: none;
+  color: rgba(33, 33, 33, 1);
+  font-size: 18px;
+  font-weight: 700;
+}
+.container-company {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  color: rgba(128, 126, 126, 1);
+  font-size: 14px;
+}
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.company img {
+  width: 90px;
+}
+
+.container-product {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.yesilberjer {
+  background-color: rgba(230, 240, 255, 1);
+  margin-right: 24px;
+}
+.yesilberjer h3 {
+  width: 301px;
+  padding: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.siyahabajur {
+  width: 449px;
+}
+.siyahabajur h3 {
+  padding: 40px;
+  width: 301px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.featuredProducts {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.featuredProducts h2 {
+  margin-top: 48px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.sari-berjer p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: rgba(128, 126, 126, 1);
+}
+.sari-berjer h4 {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.abajur p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: rgba(128, 126, 126, 1);
+}
+.abajur h4 {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.kirmizi-berjer p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: rgba(128, 126, 126, 1);
+}
+.kirmizi-berjer h4 {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container-sofa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.container-sofa .text {
+  margin-right: 80px;
+}
+.container-sofa .text h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.container-sofa .text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.featuredProductsImg h2 {
+  margin-top: 48px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.featuredProductsImg .img {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 25px;
+  margin-bottom: 56px;
+}
+
+.latestArticles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.latestArticles a {
+  text-decoration: none;
+  color: black;
+}
+
+.img-decor {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.img-decor p {
+  color: rgba(128, 126, 126, 1);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.img-decor h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.turuncu-koltuk img {
+  margin-bottom: 16px;
+}
+.koltuk img {
+  margin-bottom: 16px;
+}
+.salondecor img {
+  margin-bottom: 16px;
+}
+.sandalye img {
+  margin-bottom: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.footer img {
+  margin-bottom: 24px;
+  margin-top: 72px;
+}
+.footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 103px;
+  width: 496px;
+  height: 72px;
+  border-bottom: 1px 103 pxsolid grey;
+  color: rgba(82, 100, 124, 1);
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+.footer-icon .icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+th {
+  font-weight: 700;
+}
+
+tr:nth-child() {
+  background-color: #dddddd;
+}
+.footerText {
+  padding-right: 118px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(128, 126, 126, 1);
+}
